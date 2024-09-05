@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "chrome",
+            "type": "firefox",
             "request": "launch",
             "name": "Open test.html",
-            "file": "c:\\cours\\html 1\\test.html"
+            "file": "C:\\Users\\titou\\Desktop\\SIO\\Cours\\HTML\\CV-HTML-V1\\test.html"
         }
     ]
 }
