@@ -1,27 +1,50 @@
 body {background-color: pink}
 
-h1 { font-family: Arial ; font-size: 18pt; color: purple }
+h1 { font-family: Arial ; font-size: 18pt; color: yellow }
+
+.nuancebleu {color:darkblue}
+
 
 #infos {
-    table, th, td {border: 5px solid black; background-color: purple; width: 0%;}
+    table, th, td {width: 100%;}
 }
 
 #études {
-    
+    background-color: purple;
+    border-style: dashed;
+    border-color: magenta;
+    border-width: 3.5px;
+    table, th, td {border: 0px solid black; width: 50%; height: 50px; border-spacing: 10px;}
 }
 
 #diplômes {
-    
+    border-style: dashed;
+    border-color: darkblue;
+    border-width: 3.5px;
+    background-color: skyblue;
+    table, th, td {border: 0px solid black; width: 50%; height: 50px; border-spacing: 10px;}
 }
 
 #compétences {
-    
+    border-style: dashed;
+    border-color: darkgreen;
+    border-width: 3.5px;
+    background-color: greenyellow;
+    table, th, td {border: 0px solid black; width: 50%; height: 50px; border-spacing: 10px;}
 }
 
 #expériences {
-    
+    border-style: dashed;
+    border-color: mediumspringgreen;
+    border-width: 3.5px;
+    background-color: darkgreen;
+    table, th, td {border: 0px solid black; width: 50%; height: 50px; border-spacing: 10px;}
 }
 
 #liste-à-puces {
+    border-style: dashed;
+    border-color: burlywood;
+    border-width: 3.5px;
+    background-color: brown;
     ul {list-style-type: square}
 }
