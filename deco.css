@@ -1,9 +1,11 @@
 body {background-color: pink}
 
-h1 { font-family: Arial ; font-size: 18pt; color: yellow }
+h1 { font-family: Arial ; font-size: 18pt; color: dark }
 
-.nuancebleu {color:darkblue}
-
+.nuancerose {color:pink}
+.nuancebleu {color:#00008b}
+.nuancevert {color:green}
+.nuancevert2 {color:greenyellow}
 
 #infos {
     table, th, td {width: 100%;}
@@ -14,7 +16,7 @@ h1 { font-family: Arial ; font-size: 18pt; color: yellow }
     border-style: dashed;
     border-color: magenta;
     border-width: 3.5px;
-    table, th, td {border: 0px solid black; width: 50%; height: 50px; border-spacing: 10px;}
+    table{border: 0px solid black; width: 30%; height: 200px; border-spacing: 10px; vertical-align: text-top;}
 }
 
 #diplômes {
@@ -22,7 +24,7 @@ h1 { font-family: Arial ; font-size: 18pt; color: yellow }
     border-color: darkblue;
     border-width: 3.5px;
     background-color: skyblue;
-    table, th, td {border: 0px solid black; width: 50%; height: 50px; border-spacing: 10px;}
+    table{border: 0px solid black; width: 30%; height: 200px; border-spacing: 10px; vertical-align: text-top;}
 }
 
 #compétences {
@@ -30,7 +32,7 @@ h1 { font-family: Arial ; font-size: 18pt; color: yellow }
     border-color: darkgreen;
     border-width: 3.5px;
     background-color: greenyellow;
-    table, th, td {border: 0px solid black; width: 50%; height: 50px; border-spacing: 10px;}
+    table{border: 0px solid black; width: 30%; height: 200px; border-spacing: 10px; vertical-align: text-top;}
 }
 
 #expériences {
@@ -38,7 +40,7 @@ h1 { font-family: Arial ; font-size: 18pt; color: yellow }
     border-color: mediumspringgreen;
     border-width: 3.5px;
     background-color: darkgreen;
-    table, th, td {border: 0px solid black; width: 50%; height: 50px; border-spacing: 10px;}
+    table{border: 0px solid black; width: 30%; height: 50px; border-spacing: 10px; vertical-align: text-top;}
 }
 
 #liste-à-puces {
