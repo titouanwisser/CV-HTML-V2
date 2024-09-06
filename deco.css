@@ -1,13 +1,16 @@
 body {background-color: pink}
 
-h1 { font-family: Arial ; font-size: 18pt; color: dark }
+h1 { font-weight: 850; font-family: Arial; font-size: 20pt; color: dark }
 
 .nuancerose {color:pink}
 .nuancebleu {color:#00008b}
 .nuancevert {color:green}
 .nuancevert2 {color:greenyellow}
 
+a:link { color:purple; text-decoration:none; }
+
 #infos {
+    font-weight: 600;
     table, th, td {width: 100%;}
 }
 
