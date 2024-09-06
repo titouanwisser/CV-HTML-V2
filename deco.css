@@ -27,7 +27,7 @@ a:link { color:purple; text-decoration:none; }
     border-color: darkblue;
     border-width: 3.5px;
     background-color: skyblue;
-    table{border: 0px solid black; width: 30%; height: 200px; border-spacing: 10px; vertical-align: text-top;}
+    table{border: 0px solid black; width: 70%; height: 200px; border-spacing: 10px; vertical-align: text-top;}
 }
 
 #compétences {
@@ -35,7 +35,7 @@ a:link { color:purple; text-decoration:none; }
     border-color: darkgreen;
     border-width: 3.5px;
     background-color: greenyellow;
-    table{border: 0px solid black; width: 30%; height: 200px; border-spacing: 10px; vertical-align: text-top;}
+    table{border: 0px solid black; width: 70%; height: 200px; border-spacing: 10px; vertical-align: text-top;}
 }
 
 #expériences {
