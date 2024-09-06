@@ -2,7 +2,7 @@ body {background-color: pink}
 
 h1 { font-weight: 850; font-family: Arial; font-size: 20pt; color: dark }
 
-.nuancerose {color:pink}
+.nuancerose {color:pink; background-color: darkmagenta;}
 .nuancebleu {color:#00008b}
 .nuancevert {color:green}
 .nuancevert2 {color:greenyellow}
@@ -19,7 +19,7 @@ a:link { color:purple; text-decoration:none; }
     border-style: dashed;
     border-color: magenta;
     border-width: 3.5px;
-    table{border: 0px solid black; width: 30%; height: 200px; border-spacing: 10px; vertical-align: text-top;}
+    table{border: 0px solid black; width: 30%; height: 200px; vertical-align: text-top;}
 }
 
 #diplômes {
@@ -27,7 +27,7 @@ a:link { color:purple; text-decoration:none; }
     border-color: darkblue;
     border-width: 3.5px;
     background-color: skyblue;
-    table{border: 0px solid black; width: 70%; height: 200px; border-spacing: 10px; vertical-align: text-top;}
+    table{border: 0px solid black; width: 70%; height: 200px; vertical-align: text-top;}
 }
 
 #compétences {
@@ -35,7 +35,7 @@ a:link { color:purple; text-decoration:none; }
     border-color: darkgreen;
     border-width: 3.5px;
     background-color: greenyellow;
-    table{border: 0px solid black; width: 70%; height: 200px; border-spacing: 10px; vertical-align: text-top;}
+    table{border: 0px solid black; width: 50%; height: 200px; vertical-align: text-top;}
 }
 
 #expériences {
@@ -43,7 +43,7 @@ a:link { color:purple; text-decoration:none; }
     border-color: mediumspringgreen;
     border-width: 3.5px;
     background-color: darkgreen;
-    table{border: 0px solid black; width: 30%; height: 50px; border-spacing: 10px; vertical-align: text-top;}
+    table{border: 0px solid black; width: 30%; height: 50px; vertical-align: text-top;}
 }
 
 #liste-à-puces {
