@@ -1,1 +1,27 @@
-h1 { font-family: Arial ; font-size: 12pt; color: pink }
+body {background-color: pink}
+
+h1 { font-family: Arial ; font-size: 18pt; color: purple }
+
+#infos {
+    table, th, td {border: 5px solid black; background-color: purple; width: 0%;}
+}
+
+#études {
+    
+}
+
+#diplômes {
+    
+}
+
+#compétences {
+    
+}
+
+#expériences {
+    
+}
+
+#liste-à-puces {
+    ul {list-style-type: square}
+}
