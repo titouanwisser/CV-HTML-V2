@@ -1,4 +1,4 @@
-body {background-color: rgb(255, 154, 228)}
+body {background-color: rgb(255, 168, 210)}
 
 h1 { font-weight: 850; font-family: Arial; font-size: 20pt; color: dark }
 
@@ -7,9 +7,14 @@ h1 { font-weight: 850; font-family: Arial; font-size: 20pt; color: dark }
 .nuancevert {color:green; background-color: rgb(0, 193, 164);}
 .nuancevert2 {color:greenyellow; background-color: rgb(0, 93, 9);}
 
-a:link { color:purple; text-decoration:none; }
+a:link { color:rgb(113, 1, 113); text-decoration:none; }
+a:hover { color:rgb(254, 174, 255);}
 
 table {border-collapse: collapse;}
+
+img {
+    border-radius: 7%;
+}
 
 #infos {
     font-weight: 600;
