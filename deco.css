@@ -18,7 +18,7 @@ img {
 
 #infos {
     font-weight: 600;
-    table, th, td {width: 100%;}
+    table, th, td {border: 0px solid black; width: 100%; vertical-align: top;}
 }
 
 #études {
