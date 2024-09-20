@@ -3,48 +3,91 @@
 <html lang="fr">
 
 <head>
-
-  <title>CV Titouan HTML-5</title>
-
-  <link rel="stylesheet" type="text/css" href="deco.css">
-
-  <meta charset="utf-8">
-
+     <title>CV Titouan HTML-5</title>
+     <meta charset="utf-8">
 <!-- charset=UTF-8 : pour que les caractères accentués ressortent correctement -->
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
+     <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- la balise ci-dessus indique que l'affichage doit se faire sur la totalité de l'écran, par défaut voir Responsive Design -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
 
 </head>
 
 <body>
 
-    <div id="infos">
-    <table>
-        <tr>
-            <td>
-                WISSER Titouan <br> 
-                Hillion <br> 
-                22120 France <br> 
-                Né le 9 Février 2007 <br> 
-                0617486176 <br> 
-                <a href="mailto:titouanwisser@gmail.com">titouanwisser@gmail.com</a>
-            </td>
-            <td>
-                <a href="photo.jpg"><img src="photo.jpg" alt="photo.jpg" width="170" height="230" style="float:right"></a>
-            </td>
-        </tr>
+    <nav class="navbar navbar-expand-sm bg-danger navbar-dark justify-content-center">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#">
+          <img src="photo.jpg" alt="logo" style="width:40px;">
+        </a>
+        
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Études</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Diplômes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Compétences</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Expériences</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Divers</a>
+          </li>
+        </ul>
+      </nav>
+      
 
-    </table>
+    <div class="jumbotron text-center">
+        <h1 class="text-danger">Curriculum Vitae</h1>
+    </div>
+
+
+    <div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-9">
+            <div class="card">
+                <p class="card-header">
+                    WISSER Titouan
+                </p>
+                <p class="card-body">
+                    Hillion <br> 
+                    22120 France <br> 
+                    Né le 9 Février 2007 <br> 
+                    0617486176 <br> 
+                </p> 
+                <p class="card-footer">
+                    <button type="button" class="btn btn-danger">
+                        <a href="mailto:titouanwisser@gmail.com">titouanwisser@gmail.com</a>
+                    </button>
+                </p>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-3">
+        <div class="card">
+            <img class="card-img-top" src="photo.jpg" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">Titouan WISSER</h4>
+                <p class="card-text">Élève en BTS SIO</p>
+            </div>
+        </div>
+        </div>
+    </div>
     </div>
 
     <br>
 
+    <div class="container">
     <div id="études">
-        <h1>Etudes</h1>
-    <table>
-        <tr class="nuancerose">
+        <h1 class="text-center">Etudes</h1>
+    <table class="table">
+        <tr class="table-danger">
             <td>2017-2020</td>
             <td>Collège Les Remparts, 77540 Rozay-en-Brie</td>
         </tr>
@@ -52,20 +95,22 @@
             <td>2021-2024</td>
             <td>Lycée La Tour des Dames, 77540 Rozay-en-Brie</td>
         </tr>
-        <tr class="nuancerose">
+        <tr class="table-danger">
             <td>2024-2025</td>
             <td>Lycée Rabelais, 22000 Saint-Brieuc</td>
         </tr>
 
     </table>
     </div>
+    </div>
+
 
     <br>
 
     <div id="diplômes">
         <h1>Diplômes</h1>
     <table>
-        <tr class="nuancebleu">
+        <tr>
             <td>2021</td>
             <td>Diplôme National du Brevet Mention Très Bien</td>
         </tr>
@@ -73,7 +118,7 @@
             <td>2024</td>
             <td>Baccalauréat Général (Spécialités Anglais Monde Contemporain, Sciences Économiques et Sociales) Mention Assez Bien</td>
         </tr>
-        <tr class="nuancebleu">
+        <tr>
             <td>2024</td>
             <td>Formation Pix avec 192 Points</td>
         </tr>
@@ -86,7 +131,7 @@
     <div id="compétences">
         <h1>Compétences informatiques</h1>
     <table>
-        <tr class="nuancevert">
+        <tr>
             <td>Système d'exploitation</td>
             <td>Windows 11 Famille 24H2 x64</td>
         </tr>
@@ -94,7 +139,7 @@
             <td>Langages</td>
             <td>JavaScript, un peu de Flutter, <a href="http://www.java.com/">Java</a></td>
         </tr>
-        <tr class="nuancevert">
+        <tr>
             <td>Type de projets</td>
             <td>Développement de bots Discord, application mobile en Flutter</td>
         </tr>
@@ -107,7 +152,7 @@
     <div id="expériences">
         <h1>Expériences professionnelles</h1>
     <table>
-        <tr class="nuancevert2">
+        <tr>
             <td>2021</td>
             <td>Stage de 3e annulé dû à la pandémie</td>
         </tr>
@@ -115,7 +160,7 @@
             <td>2023-2024</td>
             <td>Formation BAFA afin de travailler en ACM</td>
         </tr>
-        <tr class="nuancevert2">
+        <tr>
             <td>2025</td>
             <td>Stage en entreprise prévu</td>
         </tr>
@@ -133,6 +178,9 @@
         <li>Jeu vidéo</li>
     </ul>
     </div>
+    </div>
+
+
 
 </body>
 
