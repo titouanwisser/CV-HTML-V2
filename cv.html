@@ -17,6 +17,8 @@
 
 <body>
 
+    <div class="container">
+
     <nav class="navbar navbar-expand-sm bg-danger navbar-dark justify-content-center">
         <!-- Brand/logo -->
         <a class="navbar-brand" href="#">
@@ -45,14 +47,12 @@
       
 
     <div class="jumbotron text-center">
-        <h1 class="text-danger">Curriculum Vitae</h1>
+        <h1 class="text-danger  ">Curriculum Vitae</h1>
     </div>
 
 
-    <div class="container">
     <div class="row">
-    <div class="card-group">
-            <div class="card">
+            <div class="card col-sm-12 col-md-9">
                 <p class="card-header">
                     WISSER Titouan
                 </p>
@@ -60,23 +60,21 @@
                     Hillion <br> 
                     22120 France <br> 
                     Né le 9 Février 2007 <br> 
-                    0617486176 <br> 
+                    <span class="glyphicon glyphicon-phone"></span>0617486176 <br> 
                 </p> 
                 <p class="card-footer">
                     <button type="button" class="btn btn-danger">
-                        <a href="mailto:titouanwisser@gmail.com">titouanwisser@gmail.com</a>
+                        <a href="mailto:titouanwisser@gmail.com">Me contacter par e-mail</a>
                     </button>
                 </p>
             </div>
-            <div class="card">
+            <div class="card col-sm-12 col-md-3">
                 <img class="card-img-top" src="photo.jpg" alt="Card image">
                 <div class="card-body">
                     <h4 class="card-title">Titouan WISSER</h4>
                     <p class="card-text">Élève en BTS SIO</p>
                 </div>
             </div>
-    </div>
-    </div>
     </div>
 
     <br>
@@ -196,6 +194,42 @@
     </div>
     </div>
 
+    <br>
+
+    <div class="jumbotron text-center">
+            <h1><strong>Formulaire de contact</strong></h1>
+            <p>N'hésitez pas à me contacter pour tout renseignement via mon adresse e-mail ou via le formulaire ci-dessous !</p>
+            <br>
+            <form action="/action_page.php" class="was-validated">
+              <div class="form-group">
+                <input type="text" class="form-control" id="nom" placeholder="Nom" name="nom" required
+                pattern=".{2,}">
+                <div class="valid-feedback">Correct.</div>
+                <div class="invalid-feedback">Veuillez remplir ce champ.</div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="prenom" placeholder="Prénom" name="prenom" required
+                pattern=".{2,}">
+                <div class="valid-feedback">Correct.</div>
+                <div class="invalid-feedback">Veuillez remplir ce champ.</div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="email" placeholder="E-mail" name="email" required
+                pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$">
+                <div class="valid-feedback">Correct.</div>
+                <div class="invalid-feedback">Veuillez remplir ce champ.</div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="message" placeholder="Message (au moins 30 caractères)" name="message" required
+                pattern=".{30,}">
+                <div class="valid-feedback">Correct.</div>
+                <div class="invalid-feedback">Veuillez remplir ce champ.</div>
+              </div>
+              <button type="submit" class="btn btn-primary">Envoyer</button>
+            </form>
+    </div>
+
+</div>
 
 
 </body>
