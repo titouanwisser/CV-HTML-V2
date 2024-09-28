@@ -8,7 +8,7 @@
             "type": "firefox",
             "request": "launch",
             "name": "Open cv.html",
-            "file": "C:\\Users\\titou\\Desktop\\Programmation\\SIO\\Cours\\Web\\CV-HTML-V2\\cv.html"
+            "file": "C:\\Users\\Titouan\\Desktop\\Programmation\\SIO\\Cours\\Web\\CV-HTML-V2\\cv.html"
         }
     ]
 }
